@@ -85,3 +85,35 @@ READING_COUNT = 10
     ```sh
     ruby ir_decoder.rb
     ```
+
+### Sample output:
+
+```
+Purging serial...
+Press a button on the remote.
+Reading...
+8973, 4458, 571, 536, 573, 532, 574, 1665, 571, 535, 573, 533, 574, 532, 575, 531, 576, 531, 567, 1672, 574, 1665, 570, 536, 602, 1636, 569, 1669, 577, 1662, 573, 1666, 570, 1669, 598, 1640, 575, 1663, 573, 534, 594, 1644, 601, 1637, 578, 531, 566, 1671, 575, 1662, 573, 1666, 569, 537, 571, 536, 602, 504, 593, 1646, 601, 1637, 577, 529, 600, 506, 601, 39457, 8999, 2193, 570, 30837, 9004, 2190, 573
+Read 75 intervals.
+
+... (as many times is defined)
+
+Press a button on the remote.
+Reading...
+8974, 4457, 573, 533, 574, 533, 576, 1662, 573, 533, 574, 532, 575, 532, 596, 509, 599, 507, 600, 1639, 576, 1663, 573, 532, 575, 1665, 602, 1636, 599, 1639, 597, 1642, 603, 1640, 565, 1669, 597, 1642, 573, 533, 575, 1663, 572, 1667, 568, 538, 601, 1638, 577, 1661, 595, 1644, 602, 504, 573, 533, 574, 532, 575, 1663, 573, 1665, 571, 535, 603, 504, 603, 39454, 9001, 2191, 572, 30834, 8996, 2196, 567
+Read 75 intervals.
+
+Averaging readings...
+Normalized values:
+a. 525us silence
+B. 581us noise
+c. 1654us silence
+d. 2209us silence
+e. 4456us silence
+F. 8980us noise
+g. 30826us silence
+h. 39473us silence
+(normalizing max distance <= 39.0)
+
+All readings match the same normalized string!
+FeBaBaBcBaBaBaBaBaBcBcBaBcBcBcBcBcBcBcBaBcBcBaBcBcBcBaBaBaBcBcBaBaBhFdBgFdB
+```
